@@ -30,6 +30,8 @@ const loadImg = (data) => {
     let image = document.createElement("div");
     image.className = "img-test";
     image.style.background = "url(" + data.results[x].urls.regular + ")";
+    image.style.backgroundSize = "cover";
+    image.style.backgroundPosition = "center";
 
     document.getElementById("grid").appendChild(image);
   }
