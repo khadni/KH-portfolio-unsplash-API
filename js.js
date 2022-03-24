@@ -28,7 +28,7 @@ const apiRequest = () => {
 const loadImg = (data) => {
   for (let x = 0; x < data.results.length; x++) {
     let image = document.createElement("div");
-    image.className = "img-test";
+    image.className = "imgBox";
     image.style.background = "url(" + data.results[x].urls.regular + ")";
     image.style.backgroundSize = "cover";
     image.style.backgroundPosition = "center";
