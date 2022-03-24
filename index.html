@@ -85,10 +85,10 @@
                 id="searchInput"
               />
               <button
-                class="btn inline-block px-6 py-2 border-2 border-purple-700 text-purple-700 font-medium text-md leading-tight uppercase rounded hover:bg-purple-900 hover:text-white focus:outline-none focus:ring-0 transition duration-150 ease-in-out"
+                class="btn inline-block px-6 py-2 border-2 border-purple-700 text-purple-700 font-medium text-md leading-tight uppercase rounded hover:bg-purple-900 hover:border-purple-900 hover:text-white focus:outline-none focus:ring-0 transition duration-150 ease-in-out"
                 type="button"
                 id="button-search"
-                onclick="loadImg()"
+                onclick="apiRequest()"
               >
                 Search
               </button>
@@ -96,7 +96,9 @@
           </div>
         </div>
       </header>
-      <div class="" id="grid">IMAGES HERE</div>
+      <div class="flex justify-center items-center flex-wrap w-full" id="grid">
+        IMAGES HERE
+      </div>
     </div>
     <script src="js.js"></script>
   </body>
