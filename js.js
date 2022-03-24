@@ -29,7 +29,7 @@ const loadImg = (data) => {
   for (let x = 0; x < data.results.length; x++) {
     let image = document.createElement("div");
     image.className = "img-test";
-    image.style.background = "url(" + data.results[x].urls.raw + ")";
+    image.style.background = "url(" + data.results[x].urls.regular + ")";
     image.style.backgroundSize = "cover";
     image.style.backgroundPosition = "center";
 
